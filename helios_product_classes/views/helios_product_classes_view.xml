@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<odoo>
+    <data>
+      
+    <!-- Adding Helios Page and fields to the Product Form View -->
+
+        <record id="helios_product_template_form_view_inherit" model="ir.ui.view">
+            <field name="name">product.template.inherit.form</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_form_view"/>
+            <field name="arch" type="xml">
+            <xpath expr="//form[1]/sheet[1]/notebook[1]" position="inside">
+                <page name="helios" string="Productos Helios" attrs="{'invisible': [('sale_ok','=',False)]}">
+                    <group name="helios_prod_class">
+                        <group name="helios_prod_class_dim" string="Unidades y Dimensiones">
+                            <label for="h_unidades"/>
+                            <div name="h_unidades">
+                                <field name="h_unidades"/>
+                            </div>
+                            <label for="h_largo"/>
+                            <div name="h_largo">
+                                <field name="h_largo"/>
+                            </div>
+                            <label for="h_ancho"/>
+                            <div name="h_ancho">
+                                <field name="h_ancho"/>
+                            </div>
+                            <label for="h_gramaje"/>
+                            <div name="h_gramaje">
+                                <field name="h_gramaje"/>
+                            </div>
+                            <label for="h_kgunidad"/>
+                            <div name="h_kgunidad">
+                                <field name="h_kgunidad"/>
+                            </div>							
+                        </group>
+                        <group name="helios_prod_class_res" string="Recursos Producción">
+                            <label for="h_lista"/>
+                            <div name="h_lista">
+                                <field name="h_lista"/>
+                            </div>
+                            <label for="h_ns"/>
+                            <div name="h_ns">
+                                <field name="h_ns"/>
+                            </div>
+                            <label for="h_ecobond"/>
+                            <div name="h_ecobond">
+                                <field name="h_ecobond"/>
+                            </div>
+                            <label for="h_mx"/>
+                            <div name="h_mx">
+                                <field name="h_mx"/>
+                            </div>
+                        </group>
+                    </group>
+                </page>
+            </xpath>			
+            	<!--<field name ="analytic_account_id" position="replace">
+                            <field name="analytic_account_id" attrs="{'invisible': [('account_analytic_true', '==', True)]}"/>
+            	</field>-->
+            </field>
+        </record>
+
+    </data>
+</odoo>
