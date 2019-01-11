@@ -11,7 +11,7 @@
             'hr_holidays',
             'hr_payroll',
             'hr_payroll_account',
-            'l10n_cl_coa',
+            'l10n_cl_coa_mfg',
         ],
     'external_dependencies': {
         'python': [
@@ -25,7 +25,7 @@
         "Daniel Santibáñez Polanco <dsantibanez@globalresponse.cl>",
         "Francisco Lorca <fcolorca1979@gmail.com>",
         "Marcel Rodriguez <jmrv1981@hotmail.com>",
-		"Rodolfo Bermúdez <rbermudez@intellego-bi.com>",
+        "Rodolfo Bermúdez <rbermudez@intellego-bi.com>",
     ],
     'license': 'AGPL-3',
     'version': '12.0.0.0.1',
