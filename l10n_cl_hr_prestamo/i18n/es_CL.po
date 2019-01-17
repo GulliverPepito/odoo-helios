@@ -327,7 +327,7 @@ msgstr "Valor Préstamo"
 #. module: l10n_cl_hr_prestamo
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr_prestamo.view_account_config_inherit
 msgid "Loan Approval"
-msgstr "Aprobación de Préstamo"
+msgstr "RRHH Préstamos al Personal"
 
 #. module: l10n_cl_hr_prestamo
 #: model:ir.model.fields,help:l10n_cl_hr_prestamo.field_res_config_settings__prestamo_approve
