@@ -195,7 +195,7 @@ msgstr "Seguidores (Empresas)"
 #. module: l10n_cl_hr_anticipo_sueldo
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr_anticipo_sueldo.cl_view_account_config_hr_advance_inherit
 msgid "HR Salary Advance"
-msgstr "RRHH Anticipo de Suelfo"
+msgstr "RRHH Anticipo de Sueldo"
 
 #. module: l10n_cl_hr_anticipo_sueldo
 #: model:ir.model.fields,field_description:l10n_cl_hr_anticipo_sueldo.field_res_config_settings__hr_anticipo_approve
